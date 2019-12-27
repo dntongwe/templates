@@ -1,0 +1,249 @@
+Version 2.4
+14.10.2016
+
+Fixed default google map location
+Fixed newsletter error message when user is already in db
+Fixed ad submission scrolled to bottom issue
+Fixed sometimes wrong image issue with facebook sharing
+Fixed issue when it was possible to edit ad without moderation
+Added possibility to automatically approve ad submissions
+
+functions.php
+header.php
+includes/theme-options.php
+js/custom.js
+style.css
+plugins/smeta
+
+Version 2.3
+09.09.2016
+
+Fixed issue with backend google map API
+Fixed issue with appearing of expired ads
+
+Edited files:
+style.css
+functions.php
+includes/theme-options.php
+
+Version 2.2
+27.06.2016
+
+Updated to work with latest Google API
+
+Edited files:
+style.css
+functions.php
+includes/theme-options.php
+
+Version 2.1
+27.05.2016
+
+Fixed bug with image jpg image uploading
+
+Edited files:
+style.css
+functions.php
+
+Version 2.0
+14.04.2016.
+
+Fixed bug with category selection when comming from All Categories on Search
+Fixed compatibility issues with WP 4.5
+Added scroll to payments after ad submit
+Added restriction on mime types to images only for the users
+Updated languages
+Updated Smeta plugin
+
+Edited files:
+style.css
+js/custom.js
+footer.php
+functions.php
+page-tpl_my_profile.php
+lib/plugins/smeta.zip
+languages/*
+
+Version 1.9
+28.03.2016.
+
+Added category count on shortcode and all categories page
+Added home page map geolocation
+Added autocomplete restriction by country
+Fixed bug with displaying phone from the ad
+Fixed bug with default radius search
+Fixed bug with navigation on iPad
+Updated languages files
+
+Edited files:
+style.css
+functions.php
+js/gmap.js
+js/custom.js
+page-tpl_search_page.php
+page-tpl_all_categories.php
+includes/theme-options.php
+includes/shortcodes/categories.php
+includes/widgets.php
+languages/*
+
+Version 1.8
+18.03.2016.
+
+Added sidebar on ad single page
+Added google adsense widget
+Updated languages
+
+Edited files:
+single-ad.php
+sidebar-ad.php
+includes/theme-options.php
+inculdes/widgets.php
+style.css
+functions.php
+languages/*
+
+
+Version 1.7
+15.03.2016.
+
+Fixed display of prices on map boxes
+
+Edited files:
+style.css
+js/custom.js
+functions.php
+
+
+Version 1.6
+09.03.2016.
+
+Fixed mollie mode
+Fixed style of messages for report and question
+Fixed bug with double message on question and report
+Fixed bug with reseting views on ad edit
+Minor bug fixes
+Added removal of the submit ad button after the submission is successfull
+Improvements to caegory display when only 2 are available ( to be displayed one beside the other )
+Improved import
+Removed theme's updated and introduced Envato Market as official update plugin
+Updated languages files
+
+Edited files:
+style.css
+css/admin.css
+functions.php
+includes.profile-pages/ad-form.php
+includes/class-tgm-plugin-activation.php
+includes/shortcodes/categories.php
+js/custom.js
+includes/theme-options.php
+includes/profile-pages.my-ads.php
+includes/radium-one-click-demo-install/*
+remove includes/update.php
+
+Version 1.5
+25.02.2016.
+
+Changes & Updates:
+Fixed a bug with front end ads submit
+
+Edited files:
+style.css
+functions.php
+footer.php
+
+Version 1.4.
+03.02.2016.
+
+Allowed same titles
+Added cluster window
+Fixed bug with view counter
+Fixed bug with editing deal when subpage slug is changed
+Fixed bug with password change on profile
+Fixed bug with mega menu and map zIndex
+Fixed bug with category count in the widget
+Fixed bug with sending question and reporting ad
+Removed extra comment on advanced fields 'Separate value with |...'
+Fixed bug with gaps on ad category edit when there are subgroups
+Fixed issue with left map search and non sticky navigation
+Fixed bug with extra video placeholders
+Fixed ordering of the ads
+Minor bug fixes
+Updated WooCommerce files
+
+Edited files: 
+style.css
+functions.php
+single-ad.php
+js/custom.js
+js/shortcodes.js
+js/custom-fields.js
+js/infobox.js
+includes/profile-pages/my-ads.php
+page-tpl_my_profile.php
+includes/custom-ad-fields.php
+includes/widgets.php
+page-tpl_search_page.php
+css/main-colors.css.php
+woocommerce/content-product.php
+
+Version 1.3.
+11.12.2015.
+
+Fixed bug with scroll bar adn modals change.
+Fixed bug with number of videos.
+Fixed bug with color of the link on register modal.
+Fixed bug with hiding nav on safari
+Updated languages files
+
+Edited files:
+style.css
+js/custom.js
+js/image-uploader.js
+css/maincolors.css.php
+languages/*
+
+Version 1.2.
+18.11.2015.
+
+Added advanced filter by custom fields
+Added steps for the renewal/submit ad form
+Removed featured image as being mandatory for the ad
+Added option to set image placeholder if no featured image is assigned to the ad
+Added link to login form on register modal
+Updated languages files
+Changed demo data
+
+Edite files:
+style.css
+js/custom.js
+functions.php
+includes/custom-ad-fields.php
+includes/search-box.php
+includes/theme-options.php
+includes/widgets.php
+includes/profile-pages/ad-form.php
+includes/profile-pages/next-prev.php
+inculdes/profile-pages/my-ads.php
+includes/author-info.php
+includes/ad-box.php
+includes/ad-box-alt.php
+includes/radium-one-click-demo-install/demo-files/*
+single-ad.php
+page-tpl_search_page.php
+footer.php
+languages/*
+page-tpl_my_profile.php
+classifieds-cpt ( reinstall the plugin )
+
+Version 1.1.
+17.11.2015.
+
+Fixed issue with AdBlocker
+Fixed issue with menu not showing on quick scroll
+
+Edited files:
+functions.php
+js/custom.js
+style.css

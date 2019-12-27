@@ -1,0 +1,184 @@
+10.10.2016
+Version 1.9
+
+Fixed chosen price packages not saved in backend
+Fixed ajax search page pagination not updating url
+Fixed products clicks count
+Fixed stores click throughs count
+Fixed issue with displaying review time
+Fixed pagination issue on mobiles
+
+functions.php
+js/custom.js
+style.css
+
+09.09.2016
+Version 1.8
+
+Fixed issue with subscribe refresh of output messages
+Fixed issue with importing images with special characters
+Added option to show product availability
+
+Edited files:
+js/custom.js
+plugins/compare-import/compare-import.php
+includes/theme-options.php
+includes/views/price-list-core.php
+includes/import/import.php
+
+18.04.2016.
+Version 1.7
+
+Fixed but with comments on product single
+
+Edited files:
+style.css
+comments.php
+
+11.04.2016.
+Version 1.6
+
+Fixed slug rewrite
+Fixed 'Already review product' message for non logged in users
+Updated Smeta plugin
+Updated languages
+
+Edited files:
+style.css
+functions.php
+includes/views/price-list-core.php
+lib/plugins/smeta.zip
+comments.php
+languages/*
+
+24.03.2016.
+Version 1.5
+
+Added pretty permalinks
+Fixed sorting of the prices
+Fixed display of register store modal on each page
+
+Edited files;
+style.css
+functions.php
+includes/shortcodes/categories.php
+includes/views/tags.php
+includes/views/categories.php
+includes/widgetst.php
+page-tpl_all_brands.php
+page-tpl_all_categories.php
+header.php
+page-tpl_search.php
+footer.php
+includes/views/price-list-core.php
+js/bootstrap-table.min.js
+
+10.03.2016.
+Version 1.4
+
+Fixed all fields required for store on SSL domin
+Fixed bug with displaying unpaid stores on store listing
+Added display of description on taxonomy page
+Added export / import of custom values
+Removed theme update and introduced Envato Market as official update plugin
+Improved demo content
+Updated languages
+
+Edited files:
+style.css
+css/admin.css
+functions.php
+includes/views/stores.php
+includes/theme-options.php
+includes/cf-import.php
+page-tpl_all_stores.php
+taxonomy.php
+includes/radium-one-click-demo-install/*
+delete includes/update.php
+languages/*
+
+09.11.2015.
+Version 1.3
+
+Fixed minor bugs in importer
+Fixed ratings in wordpress 4.4
+Fixed bug with similar products
+Fixed bug with sidebar and boxes margin on product single
+Fixd bug with category link on all categories page
+Fixed bug with displaying sublist on main category list if category does not have subcategories
+Fixed ordering of the subcategories on the mega menu
+Fixed bug with navigation arrows on Products Slider
+Fixed filtering with inner categories on search page
+Fixed doubling categories in search bar
+Added sortable feature ti the categories on the search bar
+Added number of products per store on store listig
+Added regular taxonomy pages
+Added addon for the WP All Import so you can use that for importing as well
+
+Edited fiels:
+style.css
+comments.php
+functions.php
+includes/import/import.php
+includes/theme-options.php
+includes/blog-box.php
+includes/shortcodes/blogs.php
+includes/shortcodes/products.php
+includes/views/price-list.php
+includes/views/stores.php
+includes/widgets.php
+index.php
+js/custom.js
+page-tpl_search.php
+single.php
+single-product.php
+taxonomy.php
+lib/plugins/compare-import.zip
+
+02.09.2015.
+Version 1.2
+
+Increased length for the feed link field
+Fixed import of demo data
+Fixed bug with saving only last slide
+Fixed bug with the display of the date
+Fixed responsive bug
+Fixed bug with storing contact phone to stores
+Fixed bug with swaped price and days ( resulting in free subscription being offered to pay )
+Added option to be able to set date format via Settings->General
+Added meta fields for the taxonomies title and description
+Fixed small bug with import
+Fixed bug with saving image for brand and category
+Fixed bug with spacing among certain widgets
+Fixed bug with dark font color on last link in responsive menu
+Updated languages
+Fixed bug with overwritting product slug
+Fixed bug with extra brackets if category term do not exists in the Categories widget
+
+
+Edited files:
+functions.php
+header.php
+languages/*
+js/custom.js
+style.css
+single.php
+includes/radium-one-click-demo-install/*
+includes/theme-options.php
+includes/blog-box.php
+includes/views/price-list-core.php
+includes/widgets.php
+includes/import/import.php
+lib/plugins/compare-cpt.zip ( reinstall the plugin )
+
+
+15.09.2015.
+Version 1.1
+
+Fixed bug with custom parser
+
+Edited files:
+includes/import/import.php
+
+Version 1.0
+Inital Version
